@@ -1,9 +1,18 @@
 {
     "name": "admin/php_oop",
     "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Admin\\PhpOop\\": "src/"
+        }
+    },
     "require": {
         "symfony/var-dumper": "^6.1",
         "ramsey/uuid": "^4.5",
-        "fakerphp/faker": "^1.20"
+        "fakerphp/faker": "^1.20",
+        "symfony/dotenv": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {}
     }
 }

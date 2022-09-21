@@ -1,6 +1,6 @@
 <?php
 
-
+namespace Ceppic;
 
 class User{
     public string $name;
@@ -10,7 +10,7 @@ class User{
     {
         $this->name = $name;
         $this->age = $age;
-        echo "C'est User";
+        echo "C'est ceppic user";
     }
 
 }
